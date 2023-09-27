@@ -1,0 +1,43 @@
+body {
+  font-size: 14px;
+  height: 100%;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+  margin: 0;
+  background-color: $grey;
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+
+  a {
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  textarea {
+    resize: none !important;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(221 221 221 / 28%);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $grey-200;
+  border-radius: 6px;
+}
+
+.rtl {
+  font-family: "Cairo", sans-serif !important;
+}

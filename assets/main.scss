@@ -1,0 +1,23 @@
+@import "scss/abstracts/variables";
+
+@import "scss/base/reset";
+@import "scss/base/typography";
+
+@import "scss/components/components";
+@import "scss/components/header";
+
+.lang {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  background-color: $blue-500;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  border-radius: 50%;
+  cursor: pointer;
+  a {
+    color: #fff;
+  }
+}
